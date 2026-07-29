@@ -1,8 +1,16 @@
 aid: isar-aerospace
 name: Isar Aerospace
-description: 'Isar Aerospace is a company surfaced as a portfolio company of earlybird, hv-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Isar Aerospace is a European space launch service provider founded in
+  2018 and headquartered in Ottobrunn near Munich, Germany. The company designs and
+  manufactures Spectrum, a two-stage orbital small-lift launch vehicle capable of
+  carrying up to 1,000 kg to low Earth orbit or up to 700 kg to Sun-synchronous orbit,
+  using liquid oxygen and propane propulsion. Spectrum is fully developed and produced
+  in-house with automated, scalable manufacturing including additive manufacturing
+  and carbon-composite structures. Isar Aerospace offers dedicated, lead, and rideshare
+  launch services for small and medium satellites and constellations. Backed by more
+  than EUR 500 million in private capital from investors including Earlybird and HV
+  Capital, the company employs over 400 people from nearly 50 nations and conducted
+  the inaugural Spectrum test flight from Andoya Spaceport, Norway, on 30 March 2025.'
 url: https://raw.githubusercontent.com/api-evangelist/isar-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +19,53 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.isaraerospace.com/images/_1200x630_crop_center-center_none/social-media-image@1200x627.jpg
 tags:
 - Company
 - Deep Tech
+- Aerospace
+- Space
+- Launch Services
+- Satellites
+- Rockets
+- Manufacturing
 apis: []
+common:
+- type: Website
+  url: https://www.isaraerospace.com
+- type: Blog
+  url: https://www.isaraerospace.com/newsroom
+- type: GitHubOrganization
+  url: https://github.com/isar-aerospace
+- type: Support
+  url: https://www.isaraerospace.com/contact
+- type: PrivacyPolicy
+  url: https://www.isaraerospace.com/privacy-policy
+- type: TermsOfService
+  url: https://www.isaraerospace.com/legal-notice
+- type: DomainSecurity
+  url: security/isar-aerospace-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
